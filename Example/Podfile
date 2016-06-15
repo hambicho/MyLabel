@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyLabel_Example' do
+  pod 'MyLabel', :path => '../'
+
+  target 'MyLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
