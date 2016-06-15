@@ -1,9 +1,9 @@
 {
   "name": "MyLabel",
   "version": "0.1.0",
-  "summary": "A short description of MyLabel.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MyLabel",
+  "summary": "Esto es un resumen para mi supuesto Label.",
+  "description": "Esto es una descripcion de mi proyecto MyLabel, solo con fines de tracticar la forma,\ncomo se genera un pod, espero sea suficiente.",
+  "homepage": "https://github.com/mercadolibre",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Henry AT": "henry.ambicho@mercadolibre.cl"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MyLabel.git",
+    "git": "https://github.com/hambicho/MyLabel.git",
     "tag": "0.1.0"
   },
   "platforms": {

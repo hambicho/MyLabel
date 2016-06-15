@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		10C533D0BEE9C9353CDE2CA95570F669 /* Pods-MyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D7EF16DEAB307DDC6195329B2D6AB4 /* Pods-MyLabel_Example-dummy.m */; };
-		3732692A616FE0C2DD61AE43FE9740D1 /* MyLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFB95AB54998B24A003E4D84D7F33B /* MyLabel-dummy.m */; };
+		2F78EAA8715A4206FED63E6867FB28D5 /* MyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE3FFD4ECDB9A13ED8FA4778943C1FE /* MyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A590823905D2BE50360F406ADC9802D /* Pods-MyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3322157C5534F227C68669CCDD2E1C /* Pods-MyLabel_Tests-dummy.m */; };
+		3DC9DD64213450C1204CDC9453AF5D1F /* MyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AD4F90C865B17B43F8123EC0C3D8CB /* MyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD362CB2C296D4D06B720426EEF213D /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD3A3D36ADB3E2F008C107A6FB321F /* MyLabel.m */; };
 		6867198967CFE26CFA3195AAD3B46E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6A4B4FCE58DE2DE78DB43CCD467DFF50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		82067B6B0788D827756D31C158BCA48F /* MyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE3FFD4ECDB9A13ED8FA4778943C1FE /* MyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90B9D8EE8CB87E9C630BD326787853F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AB5208FA318A8E76B56174908636063A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87991D8B1AB8D9D36476D20F0F14C3F2 /* ReplaceMe.m */; };
+		AFC872666D043E7D173EAED40134D2E1 /* MyLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFB95AB54998B24A003E4D84D7F33B /* MyLabel-dummy.m */; };
 		C5B18631D0C2C7B27BE38B733A9B1E84 /* Pods-MyLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1831B62BD986394257FF212C8C0C3BA3 /* Pods-MyLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC5D5695722E592193AEF764BD1EE51 /* Pods-MyLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F501A1DF08A0149DE67395DAD8F4613E /* Pods-MyLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F417C1750289284A9A30238A5D14D1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9BF803F750B737437F65CF921621AC2;
+			remoteGlobalIDString = F27DFFCDB6481F90FAE6FE61C5714816;
 			remoteInfo = MyLabel;
 		};
 /* End PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 		69912DF5801F5F7F9C66235C0A8F7032 /* Pods-MyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		741668DB49815FD6EC4600205D4AC9E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E94F0792D268A0D794E2D5A85A9063 /* Pods_MyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87991D8B1AB8D9D36476D20F0F14C3F2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		78BD3A3D36ADB3E2F008C107A6FB321F /* MyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 		893EF8244FB1005AB66F646608E103F4 /* Pods-MyLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8BE3FFD4ECDB9A13ED8FA4778943C1FE /* MyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLabel-umbrella.h"; sourceTree = "<group>"; };
 		8CC49D53C5BD76B571F4570B1DFB6B9A /* Pods-MyLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F501A1DF08A0149DE67395DAD8F4613E /* Pods-MyLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		F7B67EFC8B0BB119B52FAB554F20E268 /* Pods-MyLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9AD4F90C865B17B43F8123EC0C3D8CB /* MyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32DBCE55B84D80D9B666A714D58B3253 /* Frameworks */ = {
+		270CA9A098EEEB547BE8AD806D67DB66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B9D8EE8CB87E9C630BD326787853F7 /* Foundation.framework in Frameworks */,
+				F417C1750289284A9A30238A5D14D1B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +112,12 @@
 			path = "Target Support Files/Pods-MyLabel_Tests";
 			sourceTree = "<group>";
 		};
-		17B3E8745D4D6EA4EC5163EF7264BE6A /* Classes */ = {
+		11C0C19DBF6AFB925A9F6A2C233CF358 /* MyLabel */ = {
 			isa = PBXGroup;
 			children = (
-				87991D8B1AB8D9D36476D20F0F14C3F2 /* ReplaceMe.m */,
+				8253AC52BA259C1E1C2C60CBA2D84036 /* Classes */,
 			);
-			path = Classes;
+			path = MyLabel;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -144,6 +146,15 @@
 				CD5961D0ACB007263AF4A14228BA2173 /* Products */,
 				7A6FC50F9AAF7507A95C44267734CB95 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8253AC52BA259C1E1C2C60CBA2D84036 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD4F90C865B17B43F8123EC0C3D8CB /* MyLabel.h */,
+				78BD3A3D36ADB3E2F008C107A6FB321F /* MyLabel.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		990D17D2317E8A84146DC415C1C3C52A /* Support Files */ = {
@@ -194,14 +205,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BDDFE1097E31B14C2C6E39C332E942B9 /* MyLabel */ = {
-			isa = PBXGroup;
-			children = (
-				17B3E8745D4D6EA4EC5163EF7264BE6A /* Classes */,
-			);
-			path = MyLabel;
-			sourceTree = "<group>";
-		};
 		CD5961D0ACB007263AF4A14228BA2173 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +218,7 @@
 		D90FD069D884F3E32F3B52486D76EA48 /* MyLabel */ = {
 			isa = PBXGroup;
 			children = (
-				BDDFE1097E31B14C2C6E39C332E942B9 /* MyLabel */,
+				11C0C19DBF6AFB925A9F6A2C233CF358 /* MyLabel */,
 				990D17D2317E8A84146DC415C1C3C52A /* Support Files */,
 			);
 			name = MyLabel;
@@ -225,14 +228,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14158DFFB38FC3D06DA813D50A3F287E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82067B6B0788D827756D31C158BCA48F /* MyLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		197FC2C0FC4AD6F25CD9E9FDEDF59C79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +241,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B18631D0C2C7B27BE38B733A9B1E84 /* Pods-MyLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62411DB1ED7199C26A3C0FC392ACAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F78EAA8715A4206FED63E6867FB28D5 /* MyLabel-umbrella.h in Headers */,
+				3DC9DD64213450C1204CDC9453AF5D1F /* MyLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +291,13 @@
 			productReference = 75E94F0792D268A0D794E2D5A85A9063 /* Pods_MyLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9BF803F750B737437F65CF921621AC2 /* MyLabel */ = {
+		F27DFFCDB6481F90FAE6FE61C5714816 /* MyLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55FA9C28205E3ED0AAC90E213B85FF27 /* Build configuration list for PBXNativeTarget "MyLabel" */;
+			buildConfigurationList = E42A04C8B46CCE9BC227F344A50CA3BB /* Build configuration list for PBXNativeTarget "MyLabel" */;
 			buildPhases = (
-				5B325A1C30280E6A7C5934390A7134A8 /* Sources */,
-				32DBCE55B84D80D9B666A714D58B3253 /* Frameworks */,
-				14158DFFB38FC3D06DA813D50A3F287E /* Headers */,
+				3834E5497BBC47064855E6A1DC9EE0C0 /* Sources */,
+				270CA9A098EEEB547BE8AD806D67DB66 /* Frameworks */,
+				3C62411DB1ED7199C26A3C0FC392ACAD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9BF803F750B737437F65CF921621AC2 /* MyLabel */,
+				F27DFFCDB6481F90FAE6FE61C5714816 /* MyLabel */,
 				EEF0E6BA88DC978099D8B361A4F39FC8 /* Pods-MyLabel_Example */,
 				A65FDC55C1B99E3B86D799BBDDDA3A20 /* Pods-MyLabel_Tests */,
 			);
@@ -341,20 +345,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3834E5497BBC47064855E6A1DC9EE0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC872666D043E7D173EAED40134D2E1 /* MyLabel-dummy.m in Sources */,
+				4DD362CB2C296D4D06B720426EEF213D /* MyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54BC0DE5B54A6382C18B62178BD00C71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3A590823905D2BE50360F406ADC9802D /* Pods-MyLabel_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B325A1C30280E6A7C5934390A7134A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3732692A616FE0C2DD61AE43FE9740D1 /* MyLabel-dummy.m in Sources */,
-				AB5208FA318A8E76B56174908636063A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,41 +368,12 @@
 		9C8F9F4391E0494D6B8BFBE2FF65EB10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLabel;
-			target = F9BF803F750B737437F65CF921621AC2 /* MyLabel */;
+			target = F27DFFCDB6481F90FAE6FE61C5714816 /* MyLabel */;
 			targetProxy = 8D64B5EDAD1E00B494536E5DBBC60FF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01B0C8542F65359AB7D8A73500C21919 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE17601E9614049FEACE49ED5091607 /* MyLabel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MyLabel/MyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MyLabel/MyLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,35 +412,6 @@
 			};
 			name = Release;
 		};
-		47E833C953E9963689D186F64D3E73D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE17601E9614049FEACE49ED5091607 /* MyLabel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MyLabel/MyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MyLabel/MyLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5E91BA37F1FF35F8AC88CADCBCB22FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2650BD5F82E3410B7374A2C9BF34578D /* Pods-MyLabel_Tests.debug.xcconfig */;
@@ -499,6 +445,35 @@
 			};
 			name = Debug;
 		};
+		70EB60537A4FD7DCACD50B3D87F6D147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE17601E9614049FEACE49ED5091607 /* MyLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MyLabel/MyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyLabel/MyLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		840AB7D2C84D82CF664C10444F08AD5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69912DF5801F5F7F9C66235C0A8F7032 /* Pods-MyLabel_Example.release.xcconfig */;
@@ -531,6 +506,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8C50A8D897A8F8127B04BE2324CC5F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE17601E9614049FEACE49ED5091607 /* MyLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MyLabel/MyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyLabel/MyLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D0FA227B909B6525235A434AC4CB08EA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -661,20 +665,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55FA9C28205E3ED0AAC90E213B85FF27 /* Build configuration list for PBXNativeTarget "MyLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01B0C8542F65359AB7D8A73500C21919 /* Debug */,
-				47E833C953E9963689D186F64D3E73D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DFEF4027517B6C562FF23B0DDAFA4C72 /* Build configuration list for PBXNativeTarget "Pods-MyLabel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E91BA37F1FF35F8AC88CADCBCB22FAE /* Debug */,
 				D0FA227B909B6525235A434AC4CB08EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42A04C8B46CCE9BC227F344A50CA3BB /* Build configuration list for PBXNativeTarget "MyLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C50A8D897A8F8127B04BE2324CC5F28 /* Debug */,
+				70EB60537A4FD7DCACD50B3D87F6D147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
