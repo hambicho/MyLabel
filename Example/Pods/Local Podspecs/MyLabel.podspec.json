@@ -1,0 +1,22 @@
+{
+  "name": "MyLabel",
+  "version": "0.1.0",
+  "summary": "A short description of MyLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MyLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Henry AT": "henry.ambicho@mercadolibre.cl"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MyLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyLabel/Classes/**/*"
+}

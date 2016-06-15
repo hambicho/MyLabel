@@ -1,0 +1,6 @@
+framework module MyLabel {
+  umbrella header "MyLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
